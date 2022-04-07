@@ -2,12 +2,11 @@
 
 # Cryptocoven-NFT-API
 This is the code for an NFT smart contract API with filtering, sorting, full text search and relationships using GraphQL
-
-[Cryptocoven smart contract transactions on etherscan] (https://etherscan.io/address/0x5180db8F5c931aaE63c74266b211F580155ecac8) <br />
-[Link to my subgraph on thegraph.com] (https://thegraph.com/hosted-service/subgraph/mxnuchim/xcryptocoven)
+[Cryptocoven smart contract transactions on etherscan] (https://etherscan.io/address/0x5180db8F5c931aaE63c74266b211F580155ecac8) 
 
 # How to use the API
-Try it out here
+[Link to my subgraph on thegraph.com] (https://thegraph.com/hosted-service/subgraph/mxnuchim/xcryptocoven) <br />
+You can try some of these queries out there
 
 ## Example query:
 
