@@ -3,8 +3,9 @@ This is the code for an NFT smart contract API with filtering, sorting, full tex
 # How to use the API
 Try it out here
 
-Example query:
+## Example query:
 
+```
 {
   tokens(first: 5) {
     id
@@ -24,8 +25,10 @@ Example query:
     }
   }
 }
-Filtering
+```
+## Filtering
 
+```
 {
   tokens(
     where: {
@@ -47,7 +50,8 @@ Full text search
     description
   }
 }
-How to deploy the API
+```
+## How to deploy the API
 This project is an example of how you can build and deploy Graph Protocol APIs for NFT projects.
 
 This subgraph indexes data from Cryptocoven smart contract transactions and makes them queryable.
@@ -57,7 +61,9 @@ This API enables advanced querying capabilities like full text search, relations
 To deploy this API, follow these steps:
 
 Clone this repo, change into the directory, and install the dependencies:
-git clone git@github.com:dabit3/cryptocoven-api.git
+``` 
+git clone git@github.com:dabit3/cryptocoven-api.git`
+```
 
 cd cryptocoven-api
 
@@ -66,9 +72,11 @@ Visit The Graph hosted service dashboard, create a profile, and create a new sub
 
 Install The Graph CLI:
 
+```
 npm install -g @graphprotocol/graph-cli
-Authenticate the your CLI environment with the Access Token from your account dashboard:
-graph auth https://api.thegraph.com/deploy/ <ACCESS_TOKEN>
+```
+[Authenticate the your CLI environment with the Access Token from your account dashboard:
+graph auth] (https://api.thegraph.com/deploy/ <ACCESS_TOKEN>)
 Replace username/apiname in package.json with your username and apiname, for example: dabit3/cryptocovenapi
 
 Deploy the subgraph
