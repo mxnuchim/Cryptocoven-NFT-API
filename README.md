@@ -62,7 +62,7 @@ To deploy this API, follow these steps:
 
 Clone this repo, change into the directory, and install the dependencies:
 ``` 
-git clone https://github.com/mxnuchim/NFT-smart-contract-API.git
+git clone https://github.com/mxnuchim/NFT-cryptocoven-API.git
 ```
 
 ```
@@ -79,7 +79,7 @@ npm install -g @graphprotocol/graph-cli
 ```
 [Authenticate the your CLI environment with the Access Token from your account dashboard:
 graph auth] (https://api.thegraph.com/deploy/ <ACCESS_TOKEN>)
-Replace username/apiname in package.json with your username and apiname, for example: dabit3/cryptocovenapi
+Replace username/apiname in package.json with your username and apiname, for example: mxnuchim/xcryptocoven
 
 Deploy the subgraph
 
