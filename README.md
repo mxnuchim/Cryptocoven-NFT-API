@@ -68,13 +68,11 @@ To deploy this API, follow these steps:
 Clone this repo, change into the directory, and install the dependencies:
 ``` 
 git clone https://github.com/mxnuchim/Cryptocoven-NFT-API.git
-```
 
-```
 cd Cryptocoven-NFT-API
-```
 
 npm install
+```
 Visit The Graph hosted service dashboard, create a profile, and create a new subgraph by clicking Add Subgraph.
 
 Install The Graph CLI:
@@ -83,7 +81,7 @@ Install The Graph CLI:
 npm install -g @graphprotocol/graph-cli
 ```
 [Authenticate the your CLI environment with the Access Token from your account dashboard:
-graph auth] (https://api.thegraph.com/deploy/ <ACCESS_TOKEN>)
+graph auth] https://api.thegraph.com/deploy/ <ACCESS_TOKEN>
 Replace username/apiname in package.json with your username and apiname, for example: mxnuchim/xcryptocoven
 
 Deploy the subgraph
