@@ -81,7 +81,7 @@ Install The Graph CLI:
 npm install -g @graphprotocol/graph-cli
 ```
 [Authenticate the your CLI environment with the Access Token from your account dashboard:
-graph auth] https://api.thegraph.com/deploy/ <ACCESS_TOKEN>
+graph auth] (https://api.thegraph.com/deploy/)
 Replace username/apiname in package.json with your username and apiname, for example: mxnuchim/xcryptocoven
 
 Deploy the subgraph
