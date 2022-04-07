@@ -65,7 +65,9 @@ Clone this repo, change into the directory, and install the dependencies:
 git clone git@github.com:mxnuchim/xcryptocoven-api.git`
 ```
 
+```
 cd cryptocoven-api
+```
 
 npm install
 Visit The Graph hosted service dashboard, create a profile, and create a new subgraph by clicking Add Subgraph.
