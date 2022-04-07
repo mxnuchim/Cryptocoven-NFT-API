@@ -64,11 +64,11 @@ To deploy this API, follow these steps:
 
 Clone this repo, change into the directory, and install the dependencies:
 ``` 
-git clone https://github.com/mxnuchim/NFT-cryptocoven-API.git
+git clone https://github.com/mxnuchim/Cryptocoven-NFT-API.git
 ```
 
 ```
-cd cryptocoven-api
+cd Cryptocoven-NFT-API
 ```
 
 npm install
