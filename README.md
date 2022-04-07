@@ -81,4 +81,6 @@ Replace username/apiname in package.json with your username and apiname, for exa
 
 Deploy the subgraph
 
+```
 yarn deploy
+```
