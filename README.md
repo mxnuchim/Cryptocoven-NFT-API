@@ -62,7 +62,7 @@ To deploy this API, follow these steps:
 
 Clone this repo, change into the directory, and install the dependencies:
 ``` 
-git clone git@github.com:mxnuchim/NFT-smart-contract-API.git
+git clone https://github.com/mxnuchim/NFT-smart-contract-API.git
 ```
 
 ```
